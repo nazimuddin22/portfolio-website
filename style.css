@@ -1,0 +1,145 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+ HTML5 display-role reset for older browsers
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+} */
+
+
+/*  This is portfolio website top header part design*/
+body{
+    margin: 0px;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    width: 100%;
+    
+}
+#hero-part{
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+    height: 600px;
+}
+h1{
+    font-size: 50px;
+}
+span{
+    color:orange;
+}
+.half-width{
+    width: 40%;
+    float: left;
+    margin: 2%;
+    padding: 2%;
+}
+.half-width img{
+    width: 90%;
+}
+.btn{
+    padding: 10px 20px;
+    color:white;
+    background:linear-gradient(180deg,orange,tomato);
+    text-decoration: none;
+    font-weight: 700;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+
+
+/*  This is portfolio website top header part design*/
+
+
+#second-part{
+    background: url(images/dream-bg.png) no-repeat right;
+    height: 600px;
+}
+
+ #third-part h1{
+    font-size: 40px;
+    margin-left: 20px ;
+    padding: 0;
+   
+}
+ #third-part h1{
+    font-size: 700;
+   
+}
+ #third-part h4{
+    color:orange;
+   
+}
+#third-part{
+    background: url(images/exp-bg.png) no-repeat left;
+    height: 500px;
+    padding-left: 50px;
+}
+  
+.half-width1{
+    width: 40%;
+    float: left;
+    margin: 2%;
+    padding: 2%;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    /* background-color: white; 
+    border-left: 7px solid ;
+    border-image:linear-gradient(180deg,blue,cyan);
+    border-image-slice: 1;
+    */
+}
+.border1{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg,lightSalmon,tomato);
+    border-image-slice: 1;
+}.border2{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg,blue,cyan);
+    border-image-slice: 1;
+}
+footer p{
+    text-align: center;
+}
